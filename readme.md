@@ -9,9 +9,11 @@ You can see more on the screenshots located in the screenshots folder.
 The program is not properly tested nor is a best example of my coding skills. It needed to be written rapidly due to the conditions of the classes at school. Please, be aware that I had to respect certain guidelines and boundaries because this was a school project.
 
 ## How to compile & run
+- You should have ncurses installed (apt-get install libncurses-dev)
 - `make all` (or `make compile` and `make doc`) to compile and build the documentation
 - `make clean` to clean the project folder
-- `./spreadsheet`
+- `make run` (or `./spreadsheet`)
+- to generate the documentation, you need to have doxygen installed
 
 ## Original assignment (in Czech)
 Jednoduchý spreadsheet editor vytvořený pomocí ncurses. Do buňek je možné zadávat jednoduché výrazy (jako v kalkulačce). Editor detekuje cykly a nepovolí vytvoření výrazu, který by cyklus způsbil. Pokud je mi známo, tak parsování závorek byla jako ukázka na prosemináři, tedy zkuste naprogramovat spreadsheet tak aby bylo možné zpracovat výrazy typu: ((A1+5)/B5)-A5. Jednodušší verze je udělat výrazy bez závorek (např. A1+5/B5-A5), ovšem potom s funkcemi aplikovatelnými na sloupce/řádky typu SIN, AVG, SUM, apod.

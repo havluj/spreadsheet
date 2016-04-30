@@ -25,11 +25,11 @@ CEquation.o: src/CEquation.cpp src/CEquation.h src/CCell.h src/CTable.h src/CExp
 CExpressionParser.o: src/CExpressionParser.cpp src/CExpressionParser.h
 
 clean:
-	rm -rf sec/*.o spreadsheet doc
+	rm -rf src/*.o spreadsheet doc
 
 run:
 	./spreadsheet
 
 doc: $(OBJS)
-	cd ./src/;\
+	cd src;\
 	doxygen ../Doxyfile
