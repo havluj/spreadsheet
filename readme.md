@@ -3,7 +3,10 @@ I implemented this project as a semester project for [Programming and Algorithms
 
 It is a simple CLI spreadsheet editor that lets you do basic computation within each cell, as well as reference other cells. You can use any valid mathematical expression (+, -, /, \*, ^, %) and these functions: sum, avg, sin, cos, tan, ln, log, sqrt, pow, exp.
 
-You can see more on the screenshots located in the screenshots folder.
+## Screenshots
+![](screenshots/table.png)
+![](screenshots/handle_text.png)
+![](screenshots/help.png)
 
 ## Disclaimer
 The program is not properly tested nor is a best example of my coding skills. It needed to be written rapidly due to the conditions of the classes at school. Please, be aware that I had to respect certain guidelines and boundaries because this was a school project.
